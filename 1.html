@@ -21,8 +21,17 @@
 -->
 <script>
   "use strict";
+  // вариант 1
+  // let tempC = +prompt("Введите температуру");
+  // let tempF = (9 / 5) * tempC + 32;
+  // alert(`Цельсий: ${tempC}, Фаренгейт: ${tempF}`);
 
-  // Здесь пишем решение, данный комментарий необходимо стереть.
+
+  // вариант 2
+  let tempC = +prompt("Введите температуру");
+  let tempF = null;
+  alert(`Цельсий: ${tempC}, Фаренгейт: ${tempF = (9 / 5) * tempC + 32}`);
+
 </script>
 </body>
 </html>
